@@ -1,0 +1,62 @@
+* Style the HTML elements according to the following instructions. 
+DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS! */
+
+
+body{ 
+    background-color: #bdc3c7;}
+
+h1{
+    color:#dc85ff ;}
+
+h2{
+    color: rgb(255, 125, 50);}
+
+li{
+    color:#0033ff}
+
+p{
+    background-color:yellow}
+
+input{
+    border: 3px red solid; }
+
+.hello {
+    background-color: white;}
+
+
+#special{
+    border:2px rgb(0, 0, 127) solid;}
+
+div{
+    font-size: 25px;}
+
+
+.text{
+    background-color: rgb(179, 176, 176);}
+
+
+div p:only-child(3) {
+    color:rgb(251, 188, 209);
+ }
+ 
+em{
+    font-size: 20px white;}
+
+
+
+
+/*BONUS*/
+
+.checkbox{
+    margin-left: 50px}
+
+#special::first-letter {
+    font-size: 100px;
+    color:rgb(175, 255, 175);
+  }
+
+html:hover h1 {
+    color: rgb(164, 164, 255);}
+a:visited {
+    color: rgb(103, 103, 103);
+  }
