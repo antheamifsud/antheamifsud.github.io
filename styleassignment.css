@@ -1,0 +1,219 @@
+/*HTML & BODY*/
+html {
+    margin:  20;
+    padding: 0px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;  
+  }
+  
+  body {
+    margin:  0;
+    overflow-x: hidden;
+    background-color: #333333;
+    color: white;
+  }
+  
+  /*NAVBAR*/
+
+  .navbar {
+    background: transparent;
+    height: 70px;
+  }
+  
+  .navbar-brand {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+    font-weight: 700;
+  }
+  
+  .nav-link {
+    font-family: "IBM Plex Mono", monospaced;
+    font-size: 1.15rem;
+  }
+  
+  .nav-link-white {
+    font-family: "IBM Plex Mono", monospaced;
+    font-size: 1.15rem;
+    color: #E5e7e6 !important;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  
+  .nav-item {
+    text-align: center;
+  }
+  
+  .navbar-nav,
+  .mr-auto {
+    margin: 0rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button-light-sm {
+    font-family: "IBM Plex Mono", monospaced;
+    font-size: 1rem;
+    background-color: #FCEE21;
+    border: none;
+    width: 70px;0px;
+  }
+  
+  .navbar-brand:hover {
+    transform: scale(1.1);
+  }
+  
+  #navbarText {
+    z-index: 1;
+    }
+  
+  
+  #navBarClose {
+    text-align: end;
+    margin-top: 30px;
+  }
+  
+  #offcanvasRightLabel {
+    color: #E5e7e6;
+  }
+
+ 
+  
+  /*HOMEPAGE*/
+  .main-header {
+    font-family: "IBM Plex Mono", monospaced;
+    font-weight: 700;
+    font-size: 7vw;
+    color: White;
+  }
+  
+  .sub-header {
+    font-family: "IBM Plex Mono", monospaced;
+    font-weight: 600;
+    font-size: 2.5vw;
+    letter-spacing: 1.6px;
+    margin-bottom: 0.2vw;
+  }
+  
+  .body-text {
+    font-family: "IBM Plex Mono", monospaced;
+    font-weight: 400;
+    font-size: 1.5vmin;
+    line-height: 2vw;
+    padding-right: 4vw;
+    text-align: justify;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  
+  .sub-header-2 {
+    font-family: "IBM Plex Mono", monospaced;
+    font-weight: 600;
+    font-size: 1.9vmin;
+    color: #E5e7e6;
+    padding-left: 15px;
+    margin-bottom: 0vw;
+  }
+  
+   /*LINES*/
+  .hr-main {
+    border: 3px solid #717161;
+    border-radius: 0px;
+    opacity: 100;
+    margin-block-end: 0rem;
+    margin: 0rem;
+  }
+
+  /*CARDS*/
+  .card {
+    align-items: centre;
+    position: centre;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #999999;
+    background-clip: border-box;
+    border-radius: 15px;
+    width: 300px;
+    
+    
+  }
+  .card-img {
+    width: 300px;
+    height:300px;
+    object-fit: fill;
+    border-radius: 15px;
+    object-position: 0px;
+    }
+  
+  .card-img-top:hover {
+    opacity: 60%;
+  }
+  
+  .card:hover {
+    transform: scale(1.01);
+    z-index: 999;
+    position: relative;
+  }
+  
+  .title {
+    font-family: "IBM Plex Mono", monospaced;
+    font-weight: 600;
+    font-size: 1.1vw;
+    color: black;
+    padding-left: 0px;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  
+  
+  /*Form-Insert Email*/
+  
+  input[type="email"],
+  select.form-control {
+    font-family: "IBM Plex Mono", monospaced;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #999999;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  
+  .form-label {
+    font-size: 2.5vmin;
+    margin-top: 2vw;
+  }
+  
+  .form-control {
+    font-size: 2vmin;
+  }
+
+  /*Form - Leave a Comment*/
+  input[type="text"],
+  select.form-control {
+    font-family: "IBM Plex Mono", monospaced;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #999999;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 1.5vw;
+  }
+  
+  .img-fluid.hover:hover {
+    transform: scale(1.01);
+    z-index: 999;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  
+  
+* 
+{box-sizing:border-box
+}
+
